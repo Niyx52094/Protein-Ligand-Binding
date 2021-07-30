@@ -3,9 +3,9 @@ codes built on the cpu environment.if you wish you can change it to GPU
 ipynb file contains the graphes
 
 # 1. generate the train and test data(you can skip this if you want or reproduce from the very beginning)
-#put the training data into'./data/training_data'
-#put the test data into'./data/testing_data'
-#run:
+* put the training data into'./data/training_data'
+* put the test data into'./data/testing_data'
+* run:
 ```python main.py -lr 0.001 -dropout 0.8 -purpose preprocess -Mybest 0```
 
 # 2. train the model
